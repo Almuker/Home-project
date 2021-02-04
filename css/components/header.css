@@ -1,0 +1,309 @@
+.header_logo {
+    margin-right: 20px;
+}
+
+.inner_header {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone, .placeholder {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.book_a_lesson a {
+    color: #2B2B2B;
+}
+
+.book_a_lesson {
+    background-color: white;
+    color: #2B2B2B;
+    width: 190px;
+    height: 50px;
+    border: 1px black solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    transition: .5s;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.book_a_lesson:hover {
+    background-color: #C5A15B;
+    border: 1px #C5A15B solid;
+    color: white;
+    transition: .5s;
+}
+
+.logos {
+    width: 40px;
+    margin-right: 18px;
+}
+
+.Header a {
+    transition: .5s;
+}
+
+.under_header {
+    background-color: #2B2B2B;
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.under_header.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.under_header i {
+    color: #fff;
+    font-size: 10px;
+    transition: .5s;
+}
+
+#blog:hover i {
+    color: #C5A15B;
+    transform: rotate(180deg);
+}
+
+#pages:hover i {
+    color: #C5A15B;
+    transform: rotate(180deg);
+}
+
+.under_header a {
+    padding-left: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.5s;
+}
+
+.under_header a:hover {
+    color: #C5A15B;
+}
+
+#Home {
+    color:#C5A15B;
+    padding-left: 60px;
+}
+
+.music_for_everyone {
+    background-image: url(../../images/backgrounds/Slider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.under_music {
+    width: auto;
+    padding: 100px;
+    height: 360px;
+}
+
+.text_in_slide {
+    font-size: 110px;
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#for {
+    font-style: italic;
+    font-weight: normal;
+    color: #9D988F;
+}
+
+.under_music a {
+    width: 190px;
+    height: 50px;
+    background-color:#C5A15B;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 55px;
+    letter-spacing: 0.8px;
+    transition: .5s;
+}
+
+.under_music a:hover {
+    background-color: #6a5325;
+}
+
+.header_info a {
+    color: #2B2B2B;
+    transition: .5s;
+}
+
+.header_info a:hover {
+    color: #C5A15B;
+}
+
+.mobile_nav.fas {
+    font-size: 20px;
+    display: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.space {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    width: 261px;
+    left: 9px;
+    top: 43px;
+
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.first {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.last {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dropdown-content li{
+    background-color: #2b2b2b;
+    padding: 13px 0;
+    width: auto;
+}
+
+.dropdown-content a {
+    padding-left: 15px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+} 
+
+.dropdown:hover > .blog {
+    color: #C5A15B;
+}
+
+.dropdown:hover > .blog i {
+    color: #C5A15B;
+    transform: rotate(180deg);
+}
+
+.dropdown-content i {
+    opacity: 0;
+    margin-right: 5px;
+}
+
+.dropdown-content a:hover i {
+    opacity: 1;
+    color: #C5A15B;
+    transform: translateX(80%);
+}
+
+.tab_content {
+    transition: 1s;
+}
+
+.tab_btn {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 55px;
+    margin-right: 7px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #C5A15B;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.tab_btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.active_btn {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+body {
+    position: relative;
+}
+
+.scroll_div {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    top: 50;
+    right: 0;
+    left: 50;
+    bottom: 0;
+    margin: 0px 68px 10px 0px;
+    opacity: 0;
+}
+
+.scroll_div.active {
+    display: block;
+    opacity: 1;
+}
+
+.scroll_div button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #C5A15B;
+    width: 35px;
+    background-color: rgba(0, 0, 0, 0.7);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}

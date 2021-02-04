@@ -1,0 +1,85 @@
+.main_classes {
+    background-color: #f5f6fa;
+}
+
+.main_classes h3 {
+    font-size: 35px;
+    font-weight: 650;
+    padding-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 20px;
+}
+
+.music_classes {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: 1s;
+}
+
+.music_classes.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.classes_item {
+    width: calc(100% / 3 - 5%);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: 1s;
+}
+
+.classes_item.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.background_icon i {  
+    font-size: 55px;
+    color: #C5A15B;
+    transition: .5s;
+    padding-top: 20px;
+}
+
+
+.classes_item a {
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    color: #74757f;
+    transition: 0.5s;
+}
+
+.classes_item a:hover {
+    color: #C5A15B;
+}
+
+.classes_item:hover i {
+    color: white;
+}
+
+.classes_item:hover > .background_icon{
+    background-color: #C5A15B;
+    border-color: #C5A15B;
+}
+
+.classes_item p {
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color:  #a1a2a9;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.background_icon {
+    background-color: #f5f6fa;
+    width: 100px;
+    height: 100px;
+    border: 1px #a1a2a9 solid;
+    display: inline-block;
+    border-radius: 50%;
+    transition: .5s;
+    margin-bottom: 15px;
+}

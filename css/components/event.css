@@ -1,0 +1,140 @@
+.events {
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: 1s;
+}
+
+.events.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.event h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.event_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.event_wrap h2 {
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    color: #C5A15B;
+    margin: 20px 0;
+    transition: .5s;
+}
+
+.event_wrap h2:hover {
+    color: #6a5325;
+}
+
+.event_item {
+    width: 47%;
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(-10%);
+}
+
+.event_item:last-child {
+    transform: translateX(10%);
+}
+
+.event_item.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.event_img {
+    overflow: hidden;
+}
+
+.event_item img {
+    width: 100%;
+    height: auto;
+    transition: 1s;
+}
+
+.event_item img:hover {
+    transform: scale(1.1);
+    filter: brightness(60%);
+}
+
+.event_data {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 20px;
+    color: #a1a2a9;
+}
+
+#event_border {
+    border-left: 1px  #a1a2a9 solid;
+    border-right: 1px  #a1a2a9 solid;
+    padding: 0 30px;
+}
+
+.event_info {
+    width: 97%;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color: #a1a2a9;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.event_data a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color: #a1a2a9;
+    transition: .5s;
+}
+
+.event_data a:hover {
+    color: #6a5325;
+}
+
+.event_button {
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(50%);
+}
+
+.event_button.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.event_button a {
+    color: black;
+    background-color: #fff;
+    width: 200px;
+    height: 45px;
+    border: 1px black solid;
+    border-radius: 8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    transition: .5s;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event_button a:hover {
+    background-color: #C5A15B;
+    border-color: #C5A15B;
+    color: #fff;
+}

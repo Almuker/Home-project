@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <header class="header">
+        <div class="inner_header container">
+
+            <div class="header_logo">
+                <a href="#">
+                    <img src="images/widgets/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <div>
+                <div class="phone">
+                    
+                    <img class="logos" src="images/widgets/phone-call.png" alt="logo">
+                    
+                    <div class="header_info">
+                        <a href="#">
+                            1-800-1234-567
+                        </a> <br>
+                        <a href="#">
+                            1-800-8763-765
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <div class="placeholder">
+                    <img class="logos" src="images/widgets/placeholder.png" alt="logo">
+
+                    <div class="header_info">
+                        <a href="#">
+                            2130 Fulton Streets <br>
+                            San Diego, CA 94117-1080
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book_a_lesson_button">
+                <a href="#" class="book_a_lesson">
+                    BOOK A LESSON
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="under_header">
+            <a id="Home" href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Classes</a>
+                <div class="dropdown">
+                    <a class="blog" href="#">Blog <i class="fas fa-chevron-down"></i></a>
+                    <span class="space"></span>
+                    <ul>
+                        <div class="dropdown-content">
+                            
+                            <li class="first"><a href=""><i class="fas fa-chevron-right"></i>  Grid Blog</a></li>
+                            <li><a href=""><i class="fas fa-chevron-right"></i>  Sidebar Blog</a></li>
+                            <li><a href=""><i class="fas fa-chevron-right"></i>  Blog Layouts</a></li>
+                            <li class="last"><a href=""><i class="fas fa-chevron-right"></i>  Single Blog Post</a></li>
+   
+                        </div>
+                    </ul>
+                    
+                </div>
+            <a href="#">Teachers</a>
+            <div class="dropdown">
+                <a class="blog" href="#">Pages <i class="fas fa-chevron-down"></i></a>
+                <span class="space"></span>
+                <ul>
+                    <div class="dropdown-content pages">
+                        
+                        <li class="first"><a href=""><i class="fas fa-chevron-right"></i>  404 Page</a></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i>  505 Page</a></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i>  Coming Soon</a>></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i>  Under construction</a></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i>  Carreers</a>></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i>  Search result</a></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i>  Single job</a></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i>  Grid gallery</a></li>
+                        <li><a href=""><i class="fas fa-chevron-right"></i>  Masonry gallery</a></li></span>
+                        <li class="last"><a href=""><i class="fas fa-chevron-right"></i> Pricing</a></li>
+
+                    </div>
+                </ul>
+                
+            </div>
+                
+            <a href="#">Contacts</a>
+
+            <div class="mobile_nav fas fa-bars container" onclick="toggleModalNav('open')"></div>
+        </div>
+
+    </section>
+
+    <section class="music_for_everyone">
+
+        <div class="under_music">
+            <div class="tab_content">
+                <p class="text_in_slide">Music <i id="for">for</i> <br> Everyone</p>
+            </div>
+
+            <a href="#" onclick="toggleModal('open')">Start Learning</a>
+
+            <div class="tab_navs">
+            </div>
+       
+        </div>
+
+    </section>
+
+    <section class="welcome container section_padding">
+        <div class="welcome_bg">
+            <img src="images/backgrounds/welcome.jpg" alt="">
+        </div>
+
+        <div class="welcome_info">
+            <h3 class="main_title">Welcome to Melody!</h3>
+            <p>Melody Music School offers comprehensive musicianship through active learning for children and adults. Our music educators are highly qualified and share a love of teaching. <br><br>
+                Our curriculum offers group experiences, private lessons, ensemble participation, theater, and camps. We believe that learning music can be fun, and we believe in the effectiveness of learning in groups.
+            </p>
+            <a href="#" class="read_more">Read More</a>
+        </div>
+    </section>
+
+    <section class="main_classes section_padding">
+        <div class="container">
+            <div class="music_classes">
+                <h3 class="main_title">Music Classes</h3>
+            </div>
+
+            <div class="wrap">
+                <div class="classes_item">
+
+                    <div class="background_icon">
+                        <i class="fab fa-itunes-note"></i>
+                    </div>
+
+                    <div class="classes_content">
+                        <a href="#">Piano</a>
+                    </div>
+
+                    <div class="classes_info">
+                         <p>Want to learn to play piano? Our Piano Lessons are open to everyone.</p>
+                    </div>
+
+                </div>
+
+                <div class="classes_item">
+
+                    <div class="background_icon">
+                        <i class="fas fa-guitar"></i>
+                    </div>
+
+                    <div class="classes_content">
+                        <a href="#">Guitar</a>
+                    </div>
+
+                    <div class="classes_info">
+                         <p>Learn to play the world’s popular instrument with our guitar classes.</p>
+                    </div>
+
+                </div>
+
+                <div class="classes_item">
+
+                    <div class="background_icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+
+                    <div class="classes_content">
+                        <a href="#">Vocal</a>
+                    </div>
+
+                    <div class="classes_info">
+                         <p>Melody offers a wide variety of vocal classes for all ages and skills.</p>
+                    </div>
+
+                </div>
+
+                <div class="classes_item">
+
+                    <div class="background_icon">
+                        <i class="fas fa-drum"></i>
+                    </div>
+
+                    <div class="classes_content">
+                        <a href="#">Drum</a>
+                    </div>
+
+                    <div class="classes_info">
+                         <p>We offer extensive drum learning program at our music school.</p>
+                    </div>
+
+                </div>
+
+                <div class="classes_item">
+
+                    <div class="background_icon">
+                        <i class="fas fa-compact-disc"></i>   
+                    </div>
+
+                    <div class="classes_content">
+                        <a href="#">DJ</a>
+                    </div>
+
+                    <div class="classes_info">
+                         <p>DJ music class provides in-depth knowledge and training for aspiring DJs.</p>
+                    </div>
+
+                </div>
+
+                <div class="classes_item">
+
+                    <div class="background_icon">
+                        <i class="fas fa-assistive-listening-systems"></i>                      
+                    </div>
+
+                    <div class="classes_content">
+                        <a href="#">Hearing</a>
+                    </div>
+
+                    <div class="classes_info">
+                         <p>Hearing curriculum at our School develops students’ aural skills.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container section_padding">
+
+        <div class="groups_info">
+            <h3 class="main_title">Music Groups</h3>
+            <p>Our music school offers a variety of groups to learn music and sharpen your skills. If you <br> prefer private lessons, we have what to offer you and your children.</p>
+        </div>
+
+        <div class="groups_wrap">
+
+            <div class="groups_item">
+                <a href="#">
+                    <img src="images/widgets/groups.jpg" alt="">
+                </a><br>   
+
+                <a href="#">Kids</a>
+            </div>
+
+            <div class="groups_item">
+                <a href="#">
+                    <img src="images/widgets/groups_teen.jpg" alt="">
+                </a><br>   
+
+                <a href="#">Teens</a>
+            </div>
+
+            <div class="groups_item">
+                <a href="#">
+                    <img src="images/widgets/groups_adult.jpg" alt="">
+                </a><br>   
+
+                <a href="#">Adults</a>
+            </div>
+
+            <div class="groups_item">
+                <a href="#">
+                    <img src="images/widgets/groups_private.jpg" alt="">
+                </a><br>   
+
+                <a href="#">Private lessons</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="section_padding main_time">
+
+            <div class="info_time">
+
+                <div>
+                    <h3 class="main_title">Choose <i class="the_best">the Best</i><br> Time for Lessons</h3>
+                    <p>Our students can select any time for their music lessons that fits their <br> timetable, whether it’s a weekday evening or weekend morning.</p>
+                </div>
+
+                <div>
+                    <a href="#" class="learn_more">Learn More</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section_padding container">
+
+        <div class="testimonials">
+            <h3 class="main_title">Testimonials</h3>
+        </div>
+
+        <div class="testimonials_wrap">
+
+            <div class="testimonials_items">
+
+                <div class="testimonials_student">
+                    <img src="images/widgets/testimonials.jpg" alt="">
+
+                    <div class="student_info">
+                        <h5>Albert Webb</h5>
+                        <p>Student, Piano Class</p>
+                    </div>
+
+                </div>
+
+                <div class="student_faq">
+                    I began as adult student that never had any musical training. Your teachers spent time to understand my objectives and even gave me one trial lesson. It became a great beginning of my piano class.
+                </div>
+
+            </div>
+
+            <div class="testimonials_items">
+
+                <div class="testimonials_student">
+                    <img src="images/widgets/testimonials2.jpg" alt="">
+
+                    <div class="student_info">
+                        <h5>Kelly McMillan</h5>
+                        <p>Student, Vocal Class</p>
+                    </div>
+
+                </div>
+
+                <div class="student_faq">
+                    I’ve learned so much with you. You don’t simply observe and correct mistakes. The suggestions you make always have broader implications; you explain the detailed performance of a certain piece.
+                </div>
+
+            </div>
+
+            <div class="testimonials_items">
+
+                <div class="testimonials_student">
+                    <img src="images/widgets/testimonials3.jpg" alt="">
+
+                    <div class="student_info">
+                        <h5>Harold Barnett</h5>
+                        <p>Student, Hearing Class</p>
+                    </div>
+
+                </div>
+
+                <div class="student_faq">
+                    I am not a seasoned musician but I have some experience in music. Your hearing classes have given me more confidence in identifying notes and chords. I’m very glad to recommend your lessons to everyone.
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section_padding about_us">
+
+        <div class="about_us_info">
+            <h3 class="main_title">Some Facts About Our School</h3>
+            <p>We have been helping people sharpen their music skills since our foundation. Below are <br> just some facts and numbers from our history that will tell you more about us.</p>
+        </div>
+
+        <div class="about_us_wrap">
+
+            <div class="about_us_item">
+                
+                <div class="about_us_icon">
+                    <i class="fas fa-award"></i>
+                </div>
+
+                <h4 id="count_1">12</h4>
+                    
+                <p>International Awards</p>
+
+            </div>
+
+            <div class="about_us_item">
+                
+                <div class="about_us_icon">
+                    <i class="fas fa-music"></i>
+                </div>
+
+                <h4 id="count_2">238</h4>
+                    
+                <p>Satisfied Students</p>
+
+            </div>
+
+            <div class="about_us_item">
+                
+                <div class="about_us_icon">
+                    <i class="far fa-star"></i>
+                </div>
+
+                <h4 id="count_3">19</h4>
+                    
+                <p>Years of Experience</p>
+
+            </div>
+
+            <div class="about_us_item">
+                
+                <div class="about_us_icon">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+
+                <h4 id="count_4">54</h4>
+                    
+                <p>Qualified Teachers</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container section_padding">
+
+        <div class="our_teachers">
+            <h3 class="main_title">Our Teachers</h3>
+        </div>
+
+        <div class="teacher_wrap">
+            
+            <div class="teacher_item">
+
+                <img src="images/widgets/teacher.jpg" alt="">
+
+                <div class="networks_icon">
+                    
+                    <a href="#">
+                        <div class="facebook icon-circle">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </a>
+                    
+                    <a href="#">
+                        <div class="twitter icon-circle">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="instagram icon-circle">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="google icon-circle">
+                            <i class="fab fa-google"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="linkedin icon-circle">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </a>
+
+                </div>
+
+                <h3><a href="#">Nathalie Porter</a></h3> 
+
+                <p class="teacher_info">Founder, Vocal Teacher</p>
+            </div>
+
+            <div class="teacher_item">
+
+                <img src="images/widgets/teacher2.jpg" alt="">
+
+                <div class="networks_icon">
+                    
+                    <a href="#">
+                        <div class="facebook icon-circle">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </a>
+                    
+                    <a href="#">
+                        <div class="twitter icon-circle">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="instagram icon-circle">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="google icon-circle">
+                            <i class="fab fa-google"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="linkedin icon-circle">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </a>
+
+                </div>
+
+                <h3><a href="#">John Thompsonr</a></h3> 
+
+                <p class="teacher_info">DJ Classes Teacher</p>
+            </div>
+
+            <div class="teacher_item">
+
+                <img src="images/widgets/teacher3.jpg" alt="">
+
+                <div class="networks_icon">
+                    
+                    <a href="#">
+                        <div class="facebook icon-circle">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </a>
+                    
+                    <a href="#">
+                        <div class="twitter icon-circle">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="instagram icon-circle">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="google icon-circle">
+                            <i class="fab fa-google"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="linkedin icon-circle">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </a>
+
+                </div>
+
+                <h3><a href="#">Mary Williams</a></h3> 
+
+                <p class="teacher_info">Trumpet Teacher</p>
+            </div>
+
+            <div class="teacher_item">
+
+                <img src="images/widgets/teacher4.jpg" alt="">
+
+                <div class="networks_icon">
+                    
+                    <a href="#">
+                        <div class="facebook icon-circle">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </a>
+                    
+                    <a href="#">
+                        <div class="twitter icon-circle">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="instagram icon-circle">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="google icon-circle">
+                            <i class="fab fa-google"></i>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="linkedin icon-circle">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </a>
+
+                </div>
+
+                <h3><a href="#">Sam Clarke</a></h3> 
+
+                <p class="teacher_info">Guitar Teacher</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="black_line">
+
+        <div class="line">
+            <h3 class="black_line_text">Start Learning <i class="instrument">Your Favorite Instrument</i> Right Now!</h3>
+            <a href="#" class="get_start">Get Started</a>
+        </div>
+
+    </section>
+
+    <section class="event section_padding container">
+
+        <div class="events">
+            <h3 class="main_title">Upcoming Events</h3>
+        </div>
+
+        <div class="event_wrap">
+
+            <div class="event_item">
+
+                <div class="event_img">
+                    <a href="#"><img src="images/widgets/event.jpg" alt=""></a>
+                </div>
+                
+                <a href="#"><h2>String Instruments Masterclass</h2></a>
+                
+                <div class="event_data">
+                    <p>by Theresa Barnes</p>
+                    <p id="event_border">Apr 21, 2018 at 12:05 pms</p>
+                    <a href="#"><p>Events</p></a> 
+                </div>
+
+                <p class="event_info">This Friday, our teachers and students will organize a special masterclass open to everyone who is interested in string instruments. You can learn more about this event by contacting...</p>
+            </div>
+
+            <div class="event_item">
+
+                <div class="event_img">
+                    <a href="#"><img src="images/widgets/event2.jpg" alt=""></a>
+                </div>
+                
+                <a href="#"><h2>Melody Music School Live DJ Set</h2></a>
+                
+                <div class="event_data">
+                    <p>by Theresa Barnes</p>
+                    <p id="event_border">Apr 21, 2018 at 12:05 pms</p>
+                    <a href="#"><p>Events</p></a> 
+                </div>
+
+                <p class="event_info">Come visit our school next Sunday to enjoy a great track selections and DJ sets by our students and their teacher John Thompson. The event will also include live performances by...</p>
+
+            </div>
+
+        </div>
+
+        <div class="event_button">
+            <a href="#" class="">View all events</a>
+        </div>
+
+    </section>
+
+    <section class="main_contact section_padding">
+
+        <div class="container">
+            <div class="contact_us">
+                <h3 class="main_title">Contact Us</h3>
+            </div>
+    
+            <form action="#" class="contact_form">
+
+                <div class="input_row wrap">
+                    
+                    <div class="contact_item">
+                        <p>First Name</p>
+                        <input class="input_contact field incorrect first_name">
+                    </div>
+                    
+                    <div class="contact_item ">
+                        <p>Last Name</p>
+                        <input class="input_contact field incorrect last_name">
+                    </div>
+
+                </div>
+    
+                <div class="input_row wrap">
+                    <div class="contact_item">
+                        <p>E-mail</p>
+                        <input class="input_contact field incorrect e_mail">
+                    </div>
+                    
+                    <div class="contact_item">
+                        <p>Phone</p>
+                        <input class="input_contact field incorrect telephone">
+                    </div>
+
+                </div>
+
+                <div class="textarea_div">
+                    <p class="area_message">Your Message</p>
+                    <textarea class="textarea_contact"></textarea>
+                </div>
+
+                <div class="button_contact">
+                    <button class="message">Send message</button>
+                    <p>or use</p>
+                    <a href="#" class="messenger">messenger</a>
+                </div>
+                
+            </form>
+            
+            
+            
+        </div>
+   
+    </section>
+
+    <section class="container section_padding">
+
+        <div class="contact_wrap">
+
+            <div class="contact_item border info">
+                <div class="contact_icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                
+                <a href="#">8-705-308-2626</a>
+                <a href="#">1-800-9876-098</a>
+            </div>
+
+            <div class="contact_item mail info">
+                <div class="contact_icon">
+                    <i class="far fa-envelope"></i>
+                </div>
+
+                <a href="#">Almuker93@gmail.com</a> <br>
+                
+            </div>
+
+            <div class="contact_item border info">
+                <div class="contact_icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+
+                <a href="#">2130 Fulton Street San Diego, <br> CA 94117-1080 USA</a>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer_wrap">
+
+                <div class="footer_item">
+    
+                    <div class="footer_about_us">
+    
+                        <h3>About Us</h3>
+                        <p>
+                            Our music school was founded in 1999 to help students of all ages from all over the state to pursue their dream of becoming musicians. If you would like to learn how to play any musical instrument, our school is the place for you, regardless of your age and social status. We offer group and private lessons for children and adults.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="footer_item">
+    
+                    <div class="footer_blog">
+    
+                        <h3>Recent Blog Posts</h3>
+                        <a href="#">Traditional or Online Music School: Which One to Pick and Why</a>
+                        <p>by Theresa Barnes : <a href="#">2 days ago</a> </p>
+                        
+                        <div class="footer_news">
+                            <a href="#">Are Grades Important for Getting into Music School?</a>
+                            <p>by Theresa Barnes : <a href="#">2 days ago</a> </p>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+                <div class="footer_item">
+                    <div>
+                        <h3>Our Gallery</h3>
+                    </div>
+                </div>
+                 
+    
+            </div>
+
+            <div class="footer_navs">
+
+                <div class="footer_info">
+
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Classes</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contacts</a>
+
+                </div>
+
+                <div class="footer_networks">
+
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                            
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+        
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+        
+                    <a href="#">
+                        <i class="fab fa-google"></i>
+                    </a>
+        
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer_logo">
+                <a href="#"><img src="images/widgets/logo-inverse.png" alt=""></a>
+                <p>© 2020 All Rights Reserved. <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <div class="modal_window">
+
+        <div class="modal_content">
+            <button class="close_btn" onclick="toggleModal()">X</button>
+            Hello world
+        </div>
+
+    </div>
+
+    <div class="nav_window">
+        <div class="modal_content">
+            <button class="close_btn" onclick="toggleModalNav()">X</button>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Classes</a>
+            <a href="#">Blog</a>
+            <a href="#">Teachers</a>
+            <a href="#">Pages</a>
+            <a href="#">Contacts</a>
+        </div>
+    </div>
+
+    <div class="scroll_div">
+        <button class="scroll_btn" onclick="scrollToTop()"> <i class="fas fa-chevron-up"></i> </button>
+    </div>
+    
+    <script src="js/modal.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/firstDOM.js"></script>
+</body>
+</html>

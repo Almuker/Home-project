@@ -1,0 +1,331 @@
+/* 1024, 768, 425, 320 */
+
+@media (max-width: 1814px) {
+    .networks_icon {
+        width: 89%;
+    }
+}
+
+@media (max-width: 1566px) {
+    .networks_icon {
+        width: 84%;
+    }
+}
+
+@media (max-width: 1242px) {
+    .networks_icon {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .event_item {
+        width: 65%;
+        display: grid;
+        margin-bottom: 25px;
+    }
+
+    .event_wrap {
+        justify-content: center;
+    }
+
+    .groups_item {
+        width: calc(100% / 2 - 22%);
+        margin-bottom: 25px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .groups_wrap {
+        justify-content: center;
+    }
+
+    .teacher_wrap {
+        justify-content: center;
+    }
+
+    .teacher_item {
+        width: calc(100% / 2 - 15%);
+        margin-bottom: 25px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .networks_icon {
+        width: 66%;
+        left: 60px;
+    }
+
+    .footer_item {
+        width: calc(100% / 2 - 3%)
+    }
+
+}
+
+@media (max-width: 1088px) {
+    .groups_item {
+        width: calc(100% / 2 - 16%);
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .welcome {
+        display: flex;
+    }
+    
+    .welcome img {
+        width: 450px;
+        height: 405px;
+    }
+    
+    .footer_info a {
+        padding-right: 15px;
+    }
+
+    .testimonials_items {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 903px) {
+    .groups_item {
+        width: 70%;
+        display: grid;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 869px) {
+    .teacher_item {
+        width: 70%;
+    }
+
+    .networks_icon {
+        width: 47%;
+        left: 136px;
+    }
+
+    .phone,.placeholder {
+        display: none;
+    }
+
+    .welcome_bg img {
+        display: none;
+    }
+
+    #event_border {
+        border: none;
+    }
+
+    .footer_item {
+        width: 100%;
+    }
+    
+    .footer_logo {
+        display: block;
+    }
+
+    .footer_logo img {
+        margin-bottom: 15px;
+    }
+
+    .footer_navs {
+        display: block;
+    }
+
+    .footer_info {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 847px) {
+    .under_header a {
+        display: none;
+    }
+    .mobile_nav.fas {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .music_for_everyone {
+        background-size: 768px 520px;
+        background-repeat: no-repeat;
+    }
+
+    .welcome img {
+        width: 250px;
+        height: 405px;
+    }
+
+    .about_us_item {
+        width: calc(100% / 2 - 7%);
+        margin-bottom: 45px;
+    }
+
+    .line {
+        display: block;
+        text-align: center;
+    }
+    
+    .line h3 {
+        padding: 25px 0 15px 0;
+    }
+
+    .event_item {
+        width: 85%;
+    }
+
+    .footer_info {
+        display: block;
+    }
+
+    .footer_info a {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 683px) {
+    .text_in_slide {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 650px) {
+    .classes_item {
+        width: calc(100% / 2 - 7%);
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 613px) {
+    .button_contact {
+        display: block;
+        width: 182px;
+    }
+
+    .button_contact p {
+        margin: 25px 0 25px 75px ;
+    }
+
+    .input_row {
+        width: 150px;
+    }
+
+    .contact_wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contact_item {
+        width: 100%;
+    }
+
+    .textarea_contact {
+        width: 250px;
+    }
+}
+
+@media(max-width: 485px) {
+    .music_for_everyone {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer_info {
+        display: grid;
+    }
+
+    .footer_info a {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .book_a_lesson {
+        display: flex;
+    }
+
+    .welcome {
+        display: block;
+    }
+
+    .welcome_info {
+        padding-left: 0;
+    }
+
+    .line {
+        height: 170px;
+    }
+
+    .event_item {
+        width: 90%;
+    }
+
+    .contact_item {
+        width: 58%;
+    }
+
+    .border {
+        border: none;
+        border-top: #c5a15b 1px solid;
+        border-bottom: #c5a15b 1px solid;
+        padding: 15px 0;
+    }
+
+    .mail {
+        padding-top: 15px;
+    }
+
+    .contact_wrap {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .classes_item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .footer_about_us p {
+        width: 80%;
+    }
+
+    .footer_item a {
+        width: 20%;
+    }
+
+    .inner_header {
+        display: block;
+    }
+
+    .book_a_lesson_button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text_in_slide {
+        font-size: 35px;
+    }
+    
+    .header_logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 320px) {
+    .under_music {
+        display: grid;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,51 @@
+.about_us {
+    background-image: url(../../images/backgrounds/parallax-counter.jpg);
+    background-position: center;
+}
+
+.about_us_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.about_us h3 {
+    color: white;
+    text-align: center;
+}
+
+.about_us_info p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 60px;
+}
+
+.about_us_item {
+    width: calc(100% / 4 - 3%);
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.about_us_item h4 {
+    font-size: 55px;
+    margin: 25px 0;
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+}
+
+.about_us_item p {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.about_us_icon i {
+    font-size: 35px;
+}
+
+.our_teachers h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
