@@ -1,74 +1,76 @@
-.modal_window,.nav_window {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    /* width: 0; */
-    /* height: 0;    */
-    transform: scale(0);
-    z-index: 10;
-    background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: .5s;
+.modal_window,
+.nav_window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* width: 0; */
+  /* height: 0;    */
+  transform: scale(0);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .nav_window {
-    background-color:  #2B2B2B;
+  background-color: #2b2b2b;
 }
 
 .nav_window .modal_content {
-    background-color: #2B2B2B;
+  background-color: #2b2b2b;
 }
 
 .nav_window .modal_content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav_window .modal_content a {
-    margin-bottom: 20px;
-    font-family: 'Work Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #fff;
-    transition: .5s;
+  margin-bottom: 20px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  transition: 0.5s;
 }
 
 .nav_window .modal_content a:hover {
-    color: #C5A15B;
+  color: #c5a15b;
 }
 
-.modal_window.active,.nav_window.active {
-    opacity: 1;
-    /* height: 100%; */
-    transform: scale(1);
+.modal_window.active,
+.nav_window.active {
+  opacity: 1;
+  /* height: 100%; */
+  transform: scale(1);
 }
 
 .modal_content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-color: #fff;
-    padding: 10px;
-    width: 60%;
-    height: 40%;
-    border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  width: 60%;
+  height: 40%;
+  border-radius: 30px;
 }
 
 .close_btn {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    border: none;
-    background: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 18px;
-    color: #777;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #777;
 }

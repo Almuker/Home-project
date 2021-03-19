@@ -1,229 +1,229 @@
 .contact_us {
-    opacity: 0;
-    transition: 1s;
-    transform: translateY(50%);
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(50%);
 }
 
 .contact_us.active {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .main_contact {
-    background-color: #f5f6fa;
+  background-color: #f5f6fa;
 }
 
 .input_row {
-    width: 550px;
-    display: flex;
-    justify-content: space-between;
-    opacity: 0;
-    transition: 1s;
-    transform: translateY(50%);
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(50%);
 }
 
 .input_row.active {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .input_row p {
-    font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
-    color: #ccced7;
-    padding-bottom: 5px;
-    padding-top: 10px;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  color: #ccced7;
+  padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 .area_message {
-    font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
-    color: #ccced7;
-    padding-bottom: 5px;
-    padding-top: 10px;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  color: #ccced7;
+  padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 .input_contact {
-    font-size: 20px;
-    width: 250px;
-    height: 40px;
-    border-radius: 6px;
-    border: 0.8px #ccced7 solid;
-    outline: none;
-    padding-left: 10px;
+  font-size: 20px;
+  width: 250px;
+  height: 40px;
+  border-radius: 6px;
+  border: 0.8px #ccced7 solid;
+  outline: none;
+  padding-left: 10px;
 }
 
 .textarea_div {
-    opacity: 0;
-    transition: 1s;
-    transform: translateX(-50%);
+  opacity: 0;
+  transition: 1s;
+  transform: translateX(-50%);
 }
 
 .textarea_div.active {
-    opacity: 1;
-    transform: translateX(0);
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .textarea_contact {
-    resize: none;
-    width: 550px;
-    height: 150px;
-    border-radius: 6px;
-    border: 0.8px #ccced7 solid;
-    outline: none;
-    font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
+  resize: none;
+  width: 550px;
+  height: 150px;
+  border-radius: 6px;
+  border: 0.8px #ccced7 solid;
+  outline: none;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .button_contact {
-    margin-top: 35px;
-    width: 500px;
-    display: inline-flex;
+  margin-top: 35px;
+  width: 500px;
+  display: inline-flex;
 }
 
 .button_contact p {
-    font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
-    color: #ccced7;
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  color: #ccced7;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .messenger {
-    color: black;
-    background-color: #fff;
-    width: 180px;
-    height: 45px;
-    border: 1px black solid;
-    border-radius: 8px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
-    transition: .5s;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0;
-    transform: translateX(50%);
+  color: black;
+  background-color: #fff;
+  width: 180px;
+  height: 45px;
+  border: 1px black solid;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  transition: 0.5s;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  transform: translateX(50%);
 }
 
 .messenger.active {
-    opacity: 1;
-    transform: translateX(0);
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .messenger:hover {
-    background-color: #C5A15B;
-    border-color: #C5A15B;
-    color: #fff;
+  background-color: #c5a15b;
+  border-color: #c5a15b;
+  color: #fff;
 }
 
 .message {
-    background-color: #C5A15B;
-    color: #fff;
-    width: 180px;
-    height: 45px;
-    border: 1px#C5A15B solid;
-    border-radius: 8px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
-    letter-spacing: 0.8px;
-    transition: .5s;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: .5s;
-    opacity: 0;
-    outline: none;
-    transform: translateX(-50%);
+  background-color: #c5a15b;
+  color: #fff;
+  width: 180px;
+  height: 45px;
+  border: 1px#C5A15B solid;
+  border-radius: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0;
+  outline: none;
+  transform: translateX(-50%);
 }
 
 .message.active {
-    opacity: 1;
-    transform: translateX(0);
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .message:hover {
-    background-color: #6a5325;
-    border-color: #6a5325;
+  background-color: #6a5325;
+  border-color: #6a5325;
 }
 
 .contact_wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact_item {
-    width: 47%;
-    height: 100px;
+  width: 47%;
+  height: 100px;
 }
 
 .contact_icon {
-    display: flex;
-    justify-content: center;
-    font-size: 23px;
-    margin-bottom: 20px;
-    color: #c5a15b;
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  margin-bottom: 20px;
+  color: #c5a15b;
 }
 
 .contact_item a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
-    color: #a8a8a8;
-    margin: 8px 0;
-    align-items: center;
-    transition: .5s;
-    line-height: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  color: #a8a8a8;
+  margin: 8px 0;
+  align-items: center;
+  transition: 0.5s;
+  line-height: 20px;
 }
 
 .contact_item a:hover {
-    color: #c5a15b;
+  color: #c5a15b;
 }
 
-.street:hover{
-    color: #c5a15b;
+.street:hover {
+  color: #c5a15b;
 }
 
 .border {
-    border-right:#c5a15b 1px solid;
-    border-left:#c5a15b 1px solid;
+  border-right: #c5a15b 1px solid;
+  border-left: #c5a15b 1px solid;
 }
 
 .info {
-    opacity: 0;
-    transition: 1s;
+  opacity: 0;
+  transition: 1s;
 }
 
 .info:first-child {
-    transform: translateX(-10%);
+  transform: translateX(-10%);
 }
 
 .info:last-child {
-    transform: translateX(10%);
+  transform: translateX(10%);
 }
 
 .info:nth-child(2) {
-    transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .info.active {
-    opacity: 1;
-    transform: translate(0);
+  opacity: 1;
+  transform: translate(0);
 }
 
 .error {
-    display: flex;
-    color: red;
-    font-family: 'Work Sans', sans-serif;
+  display: flex;
+  color: red;
+  font-family: "Work Sans", sans-serif;
 }

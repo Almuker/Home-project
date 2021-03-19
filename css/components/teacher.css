@@ -1,193 +1,192 @@
 .our_teachers {
-    opacity: 0;
-    transition: 1s;
-    transform: translateY(-50%);
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(-50%);
 }
 
 .our_teachers.active {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .teacher_wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .teacher_item {
-    width: calc(100% / 4 - 3%);
-    cursor: pointer;
-    position: relative;
-    transition: 1s;
-    opacity: 0;
-    transform: translateX(-50%);
+  width: calc(100% / 4 - 3%);
+  cursor: pointer;
+  position: relative;
+  transition: 1s;
+  opacity: 0;
+  transform: translateX(-50%);
 }
 
 .teacher_item:nth-child(3) {
-    transform: translateX(20%);
+  transform: translateX(20%);
 }
 
 .teacher_item:nth-child(4) {
-    transform: translateX(20%);
+  transform: translateX(20%);
 }
 
 .teacher_item.active {
-    opacity: 1;
-    transform: translateX(0);
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .teacher_item:hover .networks_icon {
-    opacity: 1;
+  opacity: 1;
 }
 
 .teacher_item:hover img {
-    filter: brightness(60%);
+  filter: brightness(60%);
 }
 
 .teacher_item img {
-    transition: .5s;
-    z-index: 1;
+  transition: 0.5s;
+  z-index: 1;
 }
 
 .networks_icon {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    width: 70%;
-    /* margin:  0 auto; */
-    bottom: 80px;
-    left: 3px;
-    right: 0;
-    opacity: 0;
-    transition: .5s;
-    z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 70%;
+  /* margin:  0 auto; */
+  bottom: 80px;
+  left: 3px;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 2;
 }
 
 .networks_icon:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .icon-circle {
-    background-color: transparent;
-    width: 36px;
-    height: 36px;
+  background-color: transparent;
+  width: 36px;
+  height: 36px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    border-radius: 50%;
-    transition: .5s;
+  border-radius: 50%;
+  transition: 0.5s;
 }
 
 .icon-circle:hover.facebook {
-    background-color: #2059a0;
+  background-color: #2059a0;
 }
 
 .icon-circle:hover.twitter {
-    background-color: #00aae6;
-
+  background-color: #00aae6;
 }
 
 .icon-circle:hover.linkedin {
-    background-color: #2881a8;
+  background-color: #2881a8;
 }
 
-.icon-circle:hover.instagram { 
-     background-color: #e90155;
+.icon-circle:hover.instagram {
+  background-color: #e90155;
 }
 
 .icon-circle:hover.google {
-    background-color: #ff3807;
+  background-color: #ff3807;
 }
 
 .teacher_item h3:hover a {
-    color: #6a5325;
+  color: #6a5325;
 }
 
 .networks_icon i {
-    font-size: 16px;
-    color: white;
+  font-size: 16px;
+  color: white;
 }
 .teacher_item h3 {
-    text-decoration: none;
-    margin: 15px 0;
-    font-size: 21px;
-    font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+  margin: 15px 0;
+  font-size: 21px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .teacher_item a {
-    color: #c7a461;
-    transition: .5s;
+  color: #c7a461;
+  transition: 0.5s;
 }
 
 .teacher_info {
-    font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
-    color: #a1a2a9;
-    cursor: text;
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  color: #a1a2a9;
+  cursor: text;
 }
 
 .line {
-    width: 100%;
-    height: 130px;
-    background-color: #262626;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 130px;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .line h3 {
-    color: white;
-    font-family: "Playfair Display", "Times New Roman", Times, serif;
-    font-size: 25px;
-    margin-right: 20px;
+  color: white;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-right: 20px;
 }
 
 .instrument {
-    font-style: italic;
+  font-style: italic;
 }
 
 .black_line_text {
-    opacity: 0;
-    transition: 1s;
-    transform: translateX(-75%);
+  opacity: 0;
+  transition: 1s;
+  transform: translateX(-75%);
 }
 
 .black_line_text.active {
-    opacity: 1;
-    transform: translateX(0);
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .get_start {
-    background-color: #C5A15B;
-    color: #fff;
-    width: 180px;
-    height: 50px;
-    border: 1px#C5A15B solid;
-    border-radius: 8px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
-    letter-spacing: 0.8px;
-    transition: .5s;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: 1s;
-    opacity: 0;
-    transform: translateY(75%);
+  background-color: #c5a15b;
+  color: #fff;
+  width: 180px;
+  height: 50px;
+  border: 1px#C5A15B solid;
+  border-radius: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 1s;
+  opacity: 0;
+  transform: translateY(75%);
 }
 
 .get_start.active {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .get_start:hover {
-    background-color: #6a5325;
-    border-color: #6a5325;
+  background-color: #6a5325;
+  border-color: #6a5325;
 }
